@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Dans votre globals.css */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea,
+select {
+  color: #111827 !important; /* text-gray-900 */
+  background-color: white !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #6b7280 !important; /* text-gray-500 */
+}
